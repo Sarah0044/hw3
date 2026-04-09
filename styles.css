@@ -1,0 +1,217 @@
+
+body { /* the body of all pages */
+  font-family: Arial, Helvetica, sans-serif; /*Inheritance*/
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #faf3eb;
+ }
+ header {
+  background-color: #c9788a;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+ }
+nav {
+  background-color: #d79ca9;
+  padding: 0.8rem;
+  margin-top: 1rem;
+}
+nav a { /*descendant selectors */
+  color: white;
+  text-decoration: none;
+  margin: 0 0.8rem;
+  font-weight: bold;
+}
+main{
+  max-width: 60rem;
+  margin: auto;
+}
+h1 {
+  font-size: 2.3rem;
+  text-align: center;
+  color: #8b324d;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+
+}
+h2 {
+  font-size: 1.6rem;
+  color: #a23b5a;
+  text-transform: capitalize;
+  margin-top: 2.5rem;
+  /* margin-left: 20px;  moves it right */
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  text-align: center;
+
+
+}
+p {
+  font-size: 1.2rem;
+  text-align: justify;
+   /*margin-left: 20px;  /* moves it right */
+   /*margin-right: 40px;*/
+   margin:auto;
+   max-width: 55rem;
+}
+#University{
+    text-align: center; /*overriding*/
+
+}
+ul {
+  list-style-type: square;
+  list-style-position: outside;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  padding-left: 5rem;
+}
+
+ol {
+  list-style-type: decimal;
+  list-style-position: outside;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  padding-left: 4rem;
+}
+
+dl {
+
+padding-left: 4rem;
+   font-size: 1.2rem;
+
+}
+dt {
+   font-weight: bold;
+
+}
+ 
+
+footer {
+  background-color: #c9788a;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+footer a {
+  background-color: #d79ca9;     
+  color: white;               
+  text-decoration: none;         
+  padding: 10px 18px;            
+  border-radius: 8px;      
+  font-weight: bold;
+}
+footer p {
+  text-align: center;
+  margin-bottom: 0.7rem;
+   margin-top: 0.7rem;
+
+}
+
+ 
+
+img {
+
+  width: 300px;
+  height: auto;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #d79ca9;
+}
+
+
+.projectarticle {
+   margin: 2rem;
+  text-align: center;
+  border-style: dotted;
+  border-width: 3px;
+  border-color: #d79ca9;
+  padding: 1rem;
+}
+
+
+.projectarticle p {
+    text-align: center;
+}
+
+.projectarticle a{
+  background-color: #d79ca9;     
+  color: white;               
+  text-decoration: none;         
+  padding: 0.6rem 1rem;            
+  border-radius: 8px;           
+  font-weight: bold;
+
+}
+
+#quote{
+  font-style: italic;
+  text-align: center;
+  color: #8b324d;
+}
+
+#quote footer{
+  all:unset; /* to remove footer property from here*/
+  font-size: 1rem;
+  font-style:normal;
+  font-weight: bold;
+}
+
+
+
+#contactForm {
+
+max-width: 30rem;
+margin: 2rem auto;
+
+}
+
+
+#contactForm fieldset{
+border-style: double;
+border-color: #8b324d;
+}
+
+#contactForm legend{
+ font-weight: bold;
+ color: #8b324d;
+
+}
+#contactForm ul{
+
+  list-style: none;
+}
+ #contactForm li{
+  margin-bottom: 1rem;
+ }
+
+
+#contactForm input, #contactForm textarea{
+  width: 10rem;
+  padding: 0.5rem;
+  border-width: 0.1rem;
+  border-style: solid;
+  margin-left:5rem ;
+  margin-right: 5rem;
+ }
+ 
+
+#contactForm label{
+   color: #8b324d;
+}
+
+#contactForm button{
+  background-color: #d79ca9;     
+  color: white;               
+  text-decoration: none;         
+  padding: 10px 18px;            
+  border-radius: 8px;           
+  font-weight: bold;
+border-style: none;
+margin: 1rem auto;
+display:block;
+ }
+
+ 
