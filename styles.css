@@ -126,9 +126,12 @@ img {
    margin: 2rem;
   text-align: center;
   border-style: dotted;
-  border-width: 3px;
+  border-width: 5px;
   border-color: #d79ca9;
   padding: 1rem;
+  background-color: white;
+  border-radius: 15px;
+
 }
 
 
@@ -170,36 +173,43 @@ margin: 2rem auto;
 
 
 #contactForm fieldset{
-border-style: double;
-border-color: #8b324d;
+border: none;
+padding: 0;
+background: transparent;
 }
 
 #contactForm legend{
  font-weight: bold;
  color: #8b324d;
+margin-bottom: 1rem;
+
 
 }
-#contactForm ul{
+/*#contactForm ul{
 
   list-style: none;
 }
  #contactForm li{
   margin-bottom: 1rem;
  }
-
+*/
 
 #contactForm input, #contactForm textarea{
-  width: 10rem;
+ width: 100%;
   padding: 0.5rem;
-  border-width: 0.1rem;
-  border-style: solid;
-  margin-left:5rem ;
-  margin-right: 5rem;
- }
+  border: 1px solid #c9788a;
+  border-radius: 8px;
+  font-size: 1rem;
+  }
  
 
 #contactForm label{
    color: #8b324d;
+   font-weight: bold;
+
+}
+#contactForm textarea {
+  height: 50px;
 }
 
 #contactForm button{
@@ -213,5 +223,16 @@ border-style: none;
 margin: 1rem auto;
 display:block;
  }
+
+ section {
+  background-color: white;
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  border-radius: 15px;
+  border-left: 5px solid #c9788a;
+  border-right: 5px solid #c9788a;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+ 
 
  
